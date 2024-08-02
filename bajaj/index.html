@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RA2111027020009</title> <!-- Replace with your actual roll number -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RA2111027020009</h1> <!-- Replace with your actual roll number -->
+        <form id="inputForm">
+            <textarea id="jsonInput" placeholder='Enter JSON (e.g., { "data": ["A","C","z"] })'></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="errorMessage" class="error"></p>
+        <div id="responseContainer" style="display: none;">
+            <div class="multi-select">
+                <label>
+                    <input type="checkbox" id="alphabetsCheckbox"> Alphabets
+                </label>
+                <label>
+                    <input type="checkbox" id="numbersCheckbox"> Numbers
+                </label>
+                <label>
+                    <input type="checkbox" id="highestAlphabetCheckbox"> Highest alphabet
+                </label>
+            </div>
+            <div id="responseContent"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
